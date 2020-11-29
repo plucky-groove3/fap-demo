@@ -14,7 +14,7 @@ pip install virtualenv
 STEP 3 - install flask and helper packages
 -----------------------------
 pip install Flask
-pip install flask flask-jsonpify flask-sqlalchemy flask-restful
+pip install flask flask-jsonpify flask-sqlalchemy flask-restful flask-cors
 
 http://docs.jinkan.org/docs/flask/quickstart.html#a-minimal-application
 
