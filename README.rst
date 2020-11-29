@@ -43,11 +43,11 @@ npm install -g @angular/cli
 
 Create a workspace and initial application
 ++++++++++++++++++++++++++++++++++++++++++++
-ng new my-app
+ng new frontend
 
 Run the application
 +++++++++++++++++++++++++
-cd my-app
+cd frontend
 ng serve --open
 
 
@@ -57,12 +57,12 @@ USAGE
 STEP 1: start server
 --------------------------
 
-cd server
+cd backend
 ./server.py
 
 STEP 2: start angular
 -----------------------
 
-cd my-app
+cd frontend
 ng serve --open
 
