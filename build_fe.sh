@@ -7,6 +7,6 @@ echo "start build frontend!"
 
 cd ./frontend
 ng build --prod --base-href /${PROJECT_NAME}/${ANGULAR_APP_NAME}
-npx ngh --dir=../docs
+npx ngh --dir=docs/${ANGULAR_APP_NAME}
 
 echo "build frontend done!"
